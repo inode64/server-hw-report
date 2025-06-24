@@ -69,4 +69,4 @@ for interface in /sys/class/net/*; do
 done
 
 printInfo "### Test CPU"
-stress-ng --cpu 24 --cpu-method all --timeout 5m --verify --metrics-brief --perf &>${dir}/stress_cpu.txt
+stress-ng --cpu 0 --cpu-method all --timeout 5m --verify --metrics-brief --perf &>${dir}/stress_cpu.txt
