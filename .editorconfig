@@ -1,0 +1,16 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+max_line_length = 120
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.sh]
+indent_style = tab
+indent_size = 8
+tab_width = 8
+
+[*.txt]
+max_line_length = 4096
