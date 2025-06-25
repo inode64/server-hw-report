@@ -230,3 +230,18 @@ if (( DRYRUN == 0 )) && [[ -e $disk/etc/openvswitch/system-id.conf ]]; then
   echo "Regenerating Open vSwitch system-id"
   uuigen > "$disk/etc/openvswitch/system-id.conf"
 fi
+
+# ---------------------------------------------------------------------------
+# 9. Empty files
+# ---------------------------------------------------------------------------
+
+readarray -t empty_file < <(cat <<EOF
+var/db/ntp-kod
+EOF
+)
+
+for d in "${empty_file[@]}"; do
+  [[ -e $disk/$d ]] || continue
+  echo "Empty file : ${d}"
+  run echo "" > "$disk/$d"
+done
