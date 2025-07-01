@@ -1,0 +1,34 @@
+stress-ng: info:  [227723] setting to a 300 second (5 mins, 0.00 secs) run per stressor
+stress-ng: info:  [227723] dispatching hogs: 24 cpu
+stress-ng: metrc: [227723] stressor       bogo ops real time  usr time  sys time   bogo ops/s     bogo ops/s
+stress-ng: metrc: [227723]                           (secs)    (secs)    (secs)   (real time) (usr+sys time)
+stress-ng: metrc: [227723] cpu            12876440    300.00   7193.49      0.13     42921.31        1789.98
+stress-ng: info:  [227723] cpu:
+stress-ng: info:  [227723]             33391380939936 CPU Cycles                     0.111 T/sec
+stress-ng: info:  [227723]             52217000982168 Instructions                   0.174 T/sec (1.564 instr. per cycle)
+stress-ng: info:  [227723]              5770230129240 Branch Instructions           19.234 B/sec
+stress-ng: info:  [227723]                75875021400 Branch Misses                  0.253 B/sec ( 1.315%)
+stress-ng: info:  [227723]               170811862800 Stalled Cycles Frontend        0.569 B/sec
+stress-ng: info:  [227723]              1069289999736 Stalled Cycles Backend         3.564 B/sec
+stress-ng: info:  [227723]              1489866209616 Cache References               4.966 B/sec
+stress-ng: info:  [227723]                 1401194376 Cache Misses                   4.671 M/sec ( 0.094%)
+stress-ng: info:  [227723]              8820922083168 Cache L1D Read                29.403 B/sec
+stress-ng: info:  [227723]               622095114600 Cache L1D Read Miss            2.074 B/sec ( 7.052%)
+stress-ng: info:  [227723]               455526206328 Cache L1D Prefetch             1.518 B/sec
+stress-ng: info:  [227723]               829322112888 Cache L1I Read                 2.764 B/sec
+stress-ng: info:  [227723]                 1493789160 Cache L1I Read Miss            4.979 M/sec
+stress-ng: info:  [227723]                28713661512 Cache DTLB Read               95.711 M/sec
+stress-ng: info:  [227723]                    8575560 Cache DTLB Read Miss          28.585 K/sec ( 0.030%)
+stress-ng: info:  [227723]              5769816261576 Cache BPU Read                19.232 B/sec
+stress-ng: info:  [227723]                75943388856 Cache BPU Read Miss            0.253 B/sec ( 1.316%)
+stress-ng: info:  [227723]              7190945972520 CPU Clock                     23.970 B/sec
+stress-ng: info:  [227723]              7190951515272 Task Clock                    23.970 B/sec
+stress-ng: info:  [227723]                       6360 Page Faults Total             21.200 /sec 
+stress-ng: info:  [227723]                       6360 Page Faults Minor             21.200 /sec 
+stress-ng: info:  [227723]                          0 Page Faults Major              0.000 /sec 
+stress-ng: info:  [227723]                      62688 Context Switches             208.957 /sec 
+stress-ng: info:  [227723]                          0 Cgroup Switches                0.000 /sec 
+stress-ng: info:  [227723]                        816 CPU Migrations                 2.720 /sec 
+stress-ng: info:  [227723]                          0 Alignment Faults               0.000 /sec 
+stress-ng: info:  [227723]                          0 Emulation Faults               0.000 /sec 
+stress-ng: info:  [227723] successful run completed in 300.00s (5 mins, 0.00 secs)

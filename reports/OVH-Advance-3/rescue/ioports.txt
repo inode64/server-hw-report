@@ -1,0 +1,66 @@
+0000-03af : PCI Bus 0000:00
+  0000-001f : dma1
+  0020-0021 : pic1
+  0040-0043 : timer0
+  0050-0053 : timer1
+  0060-0060 : keyboard
+  0061-0061 : PNP0800:00
+  0064-0064 : keyboard
+  0070-0071 : rtc0
+  0080-008f : dma page reg
+  00a0-00a1 : pic2
+  00b4-00b4 : ACPI PM2_CNT_BLK
+  00c0-00df : dma2
+  00f0-00ff : fpu
+  02f8-02ff : serial
+03b0-03df : PCI Bus 0000:00
+03e0-0cf7 : PCI Bus 0000:00
+  03f8-03ff : serial
+  040b-040b : pnp 00:06
+  04d0-04d1 : pnp 00:06
+  04d6-04d6 : pnp 00:06
+  0800-089f : pnp 00:06
+    0800-0803 : ACPI PM1a_EVT_BLK
+    0804-0805 : ACPI PM1a_CNT_BLK
+    0808-080b : ACPI PM_TMR
+    0820-0827 : ACPI GPE0_BLK
+  0900-090f : pnp 00:06
+  0910-091f : pnp 00:06
+  0a00-0a3f : pnp 00:03
+  0a40-0a5f : pnp 00:03
+  0a60-0a6f : pnp 00:03
+  0a70-0a7f : pnp 00:03
+  0a80-0a8f : pnp 00:03
+  0b00-0b0f : pnp 00:06
+  0b20-0b3f : pnp 00:06
+  0c00-0c01 : pnp 00:06
+  0c14-0c14 : pnp 00:06
+  0c50-0c51 : pnp 00:06
+  0c52-0c52 : pnp 00:06
+  0c6c-0c6c : pnp 00:06
+  0c6f-0c6f : pnp 00:06
+  0ca2-0ca2 : IPI0001:00
+    0ca2-0ca2 : IPMI Address 1
+      0ca2-0ca2 : ipmi_si
+  0ca3-0ca3 : IPI0001:00
+    0ca3-0ca3 : IPMI Address 2
+      0ca3-0ca3 : ipmi_si
+  0cd8-0cdf : pnp 00:06
+0cf8-0cff : PCI conf1
+0d00-ffff : PCI Bus 0000:00
+  e000-ffff : PCI Bus 0000:05
+    e000-ffff : PCI Bus 0000:06
+      e000-efff : PCI Bus 0000:09
+        e000-e01f : 0000:09:00.0
+          e000-e01f : ahci
+        e020-e023 : 0000:09:00.0
+          e020-e023 : ahci
+        e030-e037 : 0000:09:00.0
+          e030-e037 : ahci
+        e040-e043 : 0000:09:00.0
+          e040-e043 : ahci
+        e050-e057 : 0000:09:00.0
+          e050-e057 : ahci
+      f000-ffff : PCI Bus 0000:07
+        f000-ffff : PCI Bus 0000:08
+          f000-f07f : 0000:08:00.0

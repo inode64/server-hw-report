@@ -1,0 +1,120 @@
+00000000-00000fff : Reserved
+00001000-0009ffff : System RAM
+000a0000-000fffff : Reserved
+  000a0000-000dffff : PCI Bus 0000:00
+    000c0000-000dffff : 0000:08:00.0
+  000f0000-000fffff : System ROM
+00100000-09afefff : System RAM
+09aff000-09ffffff : Reserved
+0a000000-0a1fffff : System RAM
+0a200000-0a211fff : ACPI Non-volatile Storage
+0a212000-0affffff : System RAM
+0b000000-0b020fff : Reserved
+0b021000-81e15017 : System RAM
+81e15018-81e48857 : System RAM
+81e48858-81f17017 : System RAM
+81f17018-81f21e57 : System RAM
+81f21e58-81f22017 : System RAM
+81f22018-81f55857 : System RAM
+81f55858-822bbfff : System RAM
+822bc000-822bcfff : Reserved
+822bd000-8857efff : System RAM
+8857f000-8e57efff : Reserved
+8e57f000-8e67efff : ACPI Tables
+8e67f000-9067efff : ACPI Non-volatile Storage
+9067f000-987fefff : Reserved
+987ff000-99ff7fff : System RAM
+99ff8000-99ffafff : Reserved
+99ffb000-99ffcfff : System RAM
+99ffd000-99ffdfff : Reserved
+99ffe000-99ffffff : System RAM
+9a000000-9bffffff : Reserved
+9d7f3000-9fffffff : Reserved
+a0000000-f6ffffff : PCI Bus 0000:00
+  e0000000-efffffff : PCI MMCONFIG 0000 [bus 00-ff]
+    e0000000-efffffff : Reserved
+      e0000000-efffffff : pnp 00:00
+  f4000000-f56fffff : PCI Bus 0000:05
+    f4000000-f56fffff : PCI Bus 0000:06
+      f4000000-f50fffff : PCI Bus 0000:07
+        f4000000-f50fffff : PCI Bus 0000:08
+          f4000000-f4ffffff : 0000:08:00.0
+          f4000000-f41d4fff : efifb
+          f5000000-f503ffff : 0000:08:00.0
+      f5200000-f53fffff : PCI Bus 0000:0a
+        f5200000-f52fffff : 0000:0a:00.1
+        f5300000-f53fffff : 0000:0a:00.0
+      f5400000-f54fffff : PCI Bus 0000:0d
+        f5400000-f547ffff : 0000:0d:00.0
+        f5480000-f54803ff : 0000:0d:00.0
+          f5480000-f54803ff : ahci
+      f5500000-f55fffff : PCI Bus 0000:0c
+        f5500000-f5507fff : 0000:0c:00.0
+          f5500000-f5507fff : xhci-hcd
+      f5600000-f56fffff : PCI Bus 0000:09
+        f5600000-f560ffff : 0000:09:00.0
+        f5610000-f56101ff : 0000:09:00.0
+          f5610000-f56101ff : ahci
+  f5800000-f5bfffff : PCI Bus 0000:0e
+    f5800000-f58fffff : 0000:0e:00.4
+      f5800000-f58fffff : xhci-hcd
+    f5900000-f59fffff : 0000:0e:00.3
+      f5900000-f59fffff : xhci-hcd
+    f5a00000-f5afffff : 0000:0e:00.2
+    f5b00000-f5b01fff : 0000:0e:00.2
+  f5c00000-f5cfffff : PCI Bus 0000:0f
+    f5c00000-f5cfffff : 0000:0f:00.0
+      f5c00000-f5cfffff : xhci-hcd
+  f5d00000-f5dfffff : PCI Bus 0000:04
+    f5d00000-f5d0ffff : 0000:04:00.0
+    f5d10000-f5d13fff : 0000:04:00.0
+      f5d10000-f5d13fff : nvme
+  f5e00000-f5efffff : PCI Bus 0000:03
+    f5e00000-f5e0ffff : 0000:03:00.0
+    f5e10000-f5e13fff : 0000:03:00.0
+      f5e10000-f5e13fff : nvme
+  f5f00000-f5ffffff : PCI Bus 0000:02
+    f5f00000-f5f0ffff : 0000:02:00.0
+    f5f10000-f5f13fff : 0000:02:00.0
+      f5f10000-f5f13fff : nvme
+  f6000000-f60fffff : PCI Bus 0000:01
+    f6000000-f600ffff : 0000:01:00.0
+    f6010000-f6013fff : 0000:01:00.0
+      f6010000-f6013fff : nvme
+f7000000-ffffffff : Reserved
+  f7600000-f767ffff : amd_iommu
+  feb00000-feb00fff : pnp 00:06
+  fec00000-fec003ff : IOAPIC 0
+  fec01000-fec013ff : IOAPIC 1
+  fec10000-fec10fff : pnp 00:06
+  fed00000-fed003ff : HPET 0
+    fed00000-fed003ff : PNP0103:00
+  fed40000-fed44fff : MSFT0101:00
+    fed40000-fed44fff : MSFT0101:00 MSFT0101:00
+  fed81500-fed818ff : AMDI0030:00
+  fedc0000-fedc0fff : pnp 00:06
+  fee00000-fee00fff : Local APIC
+    fee00000-fee00fff : pnp 00:06
+  ff000000-ffffffff : pnp 00:06
+100000000-205de7ffff : System RAM
+  9b5000000-9b6800a81 : Kernel code
+  9b6a00000-9b6fc7fff : Kernel rodata
+  9b7000000-9b7831eff : Kernel data
+  9ce239000-9ce5fffff : Kernel bss
+205de80000-205eebffff : RAM buffer
+205eec0000-fcffffffff : Reserved
+  2060000000-fcffffffff : PCI Bus 0000:00
+    fcf8000000-fcfe4fffff : PCI Bus 0000:05
+      fcf8000000-fcfe4fffff : PCI Bus 0000:06
+        fcf8000000-fcfe4fffff : PCI Bus 0000:0a
+          fcf8000000-fcf9ffffff : 0000:0a:00.1
+          fcf8000000-fcf9ffffff : ice
+          fcfa000000-fcfbffffff : 0000:0a:00.0
+          fcfa000000-fcfbffffff : ice
+          fcfc000000-fcfcffffff : 0000:0a:00.1
+          fcfd000000-fcfdffffff : 0000:0a:00.0
+          fcfe000000-fcfe00ffff : 0000:0a:00.1
+          fcfe010000-fcfe01ffff : 0000:0a:00.0
+          fcfe020000-fcfe21ffff : 0000:0a:00.1
+          fcfe220000-fcfe41ffff : 0000:0a:00.0
+fd00000000-ffffffffff : Reserved

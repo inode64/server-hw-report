@@ -1,0 +1,16 @@
+Module                  Size  Used by
+zfs                  3616768  0
+zunicode              335872  1 zfs
+zzstd                 561152  1 zfs
+zlua                  172032  1 zfs
+zavl                   16384  1 zfs
+icp                   299008  1 zfs
+zcommon                81920  2 zfs,icp
+znvpair                73728  2 zfs,zcommon
+spl                    86016  6 zfs,icp,zzstd,znvpair,zcommon,zavl
+wmi_bmof               16384  0
+cdc_ether              20480  0
+usbnet                 36864  1 cdc_ether
+video                  57344  0
+wmi                    24576  2 video,wmi_bmof
+backlight              16384  1 video

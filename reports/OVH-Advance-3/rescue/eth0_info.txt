@@ -1,0 +1,10 @@
+driver: ice
+version: 6.1.51-mod-std
+firmware-version: 4.20 0x8001b91f 1.3346.0
+expansion-rom-version: 
+bus-info: 0000:0a:00.0
+supports-statistics: yes
+supports-test: yes
+supports-eeprom-access: yes
+supports-register-dump: yes
+supports-priv-flags: yes

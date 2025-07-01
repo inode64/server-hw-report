@@ -1,0 +1,4 @@
+
+/dev/nvme1n1:
+ Timing cached reads:   64836 MB in  1.99 seconds = 32518.42 MB/sec
+ Timing buffered disk reads: 13564 MB in  3.00 seconds = 4521.13 MB/sec

@@ -1,0 +1,4 @@
+
+/dev/nvme3n1:
+ Timing cached reads:   65532 MB in  1.99 seconds = 32869.41 MB/sec
+ Timing buffered disk reads: 13396 MB in  3.00 seconds = 4464.94 MB/sec

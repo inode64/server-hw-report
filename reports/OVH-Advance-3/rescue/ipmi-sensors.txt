@@ -1,0 +1,49 @@
+ID | Name             | Type                        | Reading    | Units | Event
+1  | TEMP_AIR_INLET   | Temperature                 | 47.00      | C     | 'OK'
+2  | TEMP_AIR_OUTLET  | Temperature                 | 48.00      | C     | 'OK'
+3  | TEMP_M2          | Temperature                 | 51.00      | C     | 'OK'
+4  | TEMP_CPU         | Temperature                 | 75.00      | C     | 'OK'
+5  | GPU_TEMP         | Temperature                 | N/A        | C     | N/A
+6  | System Event     | System Event                | N/A        | N/A   | 'OK'
+7  | System Event Log | Event Logging Disabled      | N/A        | N/A   | 'Log Area Reset/Cleared'
+8  | Watchdog         | Watchdog 2                  | N/A        | N/A   | 'OK'
+9  | P12V             | Voltage                     | 11.60      | V     | 'OK'
+10 | P12V_BP          | Voltage                     | 11.60      | V     | 'OK'
+11 | P3V3_SCALED      | Voltage                     | 3.14       | V     | 'OK'
+12 | P5V_SCALED       | Voltage                     | 4.68       | V     | 'OK'
+13 | P5V_AUX_SCALED   | Voltage                     | 4.72       | V     | 'OK'
+14 | PM_VDD_P1V8      | Voltage                     | 1.75       | V     | 'OK'
+15 | PM_VDD_P1V0_AUX  | Voltage                     | 1.03       | V     | 'OK'
+16 | PM_VDD_P1V0      | Voltage                     | 1.02       | V     | 'OK'
+17 | PVDDBT_RTC_G     | Voltage                     | 3.08       | V     | 'OK'
+18 | PVDDIO_MEM_AUX   | Voltage                     | 1.08       | V     | 'OK'
+19 | PVDD_P1V8_AUX    | Voltage                     | 1.75       | V     | 'OK'
+20 | PVDD_P1V8        | Voltage                     | 1.76       | V     | 'OK'
+21 | PVDD_MISC_AUX    | Voltage                     | 0.73       | V     | 'OK'
+22 | PVDD_MISC        | Voltage                     | 1.11       | V     | 'OK'
+23 | VDDCR_CPU        | Voltage                     | 1.01       | V     | 'OK'
+24 | VDDCR_SOC        | Voltage                     | 0.92       | V     | 'OK'
+25 | FAN1             | Fan                         | 13800.00   | RPM   | 'OK'
+26 | FAN2             | Fan                         | 13600.00   | RPM   | 'OK'
+27 | FAN3             | Fan                         | N/A        | RPM   | N/A
+28 | FAN4             | Fan                         | N/A        | RPM   | N/A
+29 | FAN5             | Fan                         | N/A        | RPM   | N/A
+30 | FAN6             | Fan                         | N/A        | RPM   | N/A
+31 | DIMM1_STATUS     | Power Supply                | N/A        | N/A   | 'OK'
+32 | DIMM2_STATUS     | Power Supply                | N/A        | N/A   | 'OK'
+33 | DIMM3_STATUS     | Power Supply                | N/A        | N/A   | 'OK'
+34 | DIMM4_STATUS     | Power Supply                | N/A        | N/A   | 'OK'
+35 | GPU_STATUS       | Power Supply                | N/A        | N/A   | N/A
+36 | BMC Watchdog     | Management Subsystem Health | N/A        | N/A   | 'OK'
+39 | PSU1_Status      | Power Supply                | N/A        | N/A   | N/A
+40 | PSU1_POWER_IN    | Power Supply                | N/A        | W     | N/A
+41 | PSU1_POWER_OUT   | Power Supply                | N/A        | W     | N/A
+42 | PSU1_IIN         | Current                     | N/A        | A     | N/A
+43 | PSU1_IOUT        | Current                     | N/A        | A     | N/A
+44 | PSU1_AMB_TEMP    | Temperature                 | N/A        | C     | N/A
+45 | PSU2_Status      | Power Supply                | N/A        | N/A   | N/A
+46 | PSU2_POWER_IN    | Power Supply                | N/A        | W     | N/A
+47 | PSU2_POWER_OUT   | Power Supply                | N/A        | W     | N/A
+48 | PSU2_IIN         | Current                     | N/A        | A     | N/A
+49 | PSU2_IOUT        | Current                     | N/A        | A     | N/A
+50 | PSU2_AMB_TEMP    | Temperature                 | N/A        | C     | N/A
